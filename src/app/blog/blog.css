@@ -1,0 +1,57 @@
+.blog-container {
+  padding: 50px 250px 0px 250px;
+}
+
+.blogTitle {
+  font-size: 36px;
+  font-weight: 700;
+  /* padding-left: 40px; */
+}
+
+.totalArts {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  padding-right: 20px;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding-top: 20px;
+}
+
+.blog-card {
+  background: white;
+  margin-bottom: 25px;
+  border-radius: 6px;
+  padding: 35px 45px;
+  /* margin-left: 16px; */
+  margin-right: 16px;
+}
+
+.blog-title {
+  font-size: 20px;
+  color: black;
+}
+
+.blog-parag {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 16px;
+  color: black;
+}
+
+.blog-card .meta {
+  font-size: 0.8em;
+  opacity: 0.8;
+  margin-top: 10px;
+  font-weight: 700;
+  color: black;
+}
+
+.blogFlex,
+.meta {
+  display: flex;
+  justify-content: space-between;
+}

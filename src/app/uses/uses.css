@@ -1,0 +1,51 @@
+.uses-container {
+  padding: 50px 50px 30px 370px;
+}
+
+.uses-container h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.uses-container p {
+  font-size: 18px;
+  margin-right: 270px;
+}
+
+.uses-img {
+  width: 75%;
+  border-radius: 15px;
+  height: 450px;
+  object-fit: cover;
+  object-position: 0% 0%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 10px 15px -3px rgba(106, 106, 106, 0.1),
+    0 4px 6px -4px rgba(106, 106, 106, 0.1);
+}
+
+.ul-uses {
+  list-style: none;
+  font-size: 1.25rem;
+  margin-right: 270px;
+  padding-top: 25px;
+}
+
+.ul-uses li {
+  padding-top: 30px;
+  margin-top: -25px;
+  display: flow-root;
+}
+
+.ul-uses li::before {
+  content: "\2022";
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+
+.uses-2,
+.uses-3 {
+  margin-top: 40px;
+}

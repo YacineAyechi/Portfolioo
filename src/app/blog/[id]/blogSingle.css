@@ -1,0 +1,38 @@
+.blogSingleContainer {
+  padding: 50px 200px 100px 200px;
+}
+
+.blogSingleContent p {
+  /* margin-top: 25px; */
+  font-size: 20px;
+  margin-top: 45px;
+}
+
+.blogSingleContent ul {
+  margin-top: 15px;
+  margin-left: 35px;
+}
+
+.blogSingleContent ul li {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.blogSingleContent span {
+  font-weight: bold;
+}
+
+.blogSingleContainer img {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.dateReadingSingle {
+  color: #b8c1ec;
+  font-size: 14px;
+}

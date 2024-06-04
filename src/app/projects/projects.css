@@ -1,0 +1,112 @@
+.portfolio-container {
+  padding: 50px 150px 0px 150px;
+  margin-bottom: 50px;
+}
+
+.buttons-container {
+  margin-bottom: 20px;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 90px;
+}
+
+.projectsCard {
+  position: relative;
+}
+
+.projectCard {
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.buttons-container button {
+  padding: 13px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: white;
+  outline: none;
+  font-weight: bold;
+  border: none;
+  border-radius: 38px;
+  transition: ease-in-out 0.2s;
+}
+
+.buttons-container button.active {
+  background-color: #b8c1ec;
+  color: black;
+}
+
+.projectCard h3,
+.projectCard p {
+  display: none;
+}
+
+.projectsCard:hover .projectCard h3,
+.projectsCard:hover .projectCard p {
+  display: block;
+}
+
+.projectCard h3 {
+  margin-top: 10px;
+}
+
+.projectCard p {
+  margin-top: 5px;
+  font-style: italic;
+}
+
+/* .pr-img {
+
+  border-radius: 15px;
+  object-fit: cover;
+  object-position: 0% 0%;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 10px 15px -3px rgba(106, 106, 106, 0.1),
+    0 4px 6px -4px rgba(106, 106, 106, 0.1);
+} */
+
+.pr-img {
+  border-radius: 15px;
+  width: 100%; /* Ensure the image takes up the full width of its container */
+  object-fit: cover;
+  object-position: 0% 0%;
+
+  margin-top: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 10px 15px -3px rgba(106, 106, 106, 0.1),
+    0 4px 6px -4px rgba(106, 106, 106, 0.1);
+}
+
+.linksProject {
+  margin-top: 10px;
+}
+
+.githubIconProject,
+.demoIconProject {
+  transition: ease-in-out 0.3s color;
+  font-size: 25px;
+}
+
+.githubIconProject:hover,
+.demoIconProject:hover {
+  color: #b8c1ec;
+}
+
+.demoIconProject {
+  margin-left: 17px;
+}
+
+.projectsInfo p {
+  margin-top: 5px;
+}
